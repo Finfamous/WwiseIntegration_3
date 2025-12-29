@@ -17,7 +17,7 @@
 
 CAkFilePackageLowLevelIODeferred g_lowLevelIO;
 
-constexpr auto WWISE_BANKS_PATH = L"D:/WwiseProjects/ITest/GeneratedSoundBanks/";
+constexpr auto WWISE_BANKS_PATH = L"D:/WwiseProjects/ITest/GeneratedSoundBanks/Windows/";
 
 
 bool initSoundEngine() {
@@ -56,7 +56,6 @@ bool initSoundEngine() {
         return false;
     }
 
-    
     g_lowLevelIO.SetBasePath(WWISE_BANKS_PATH);
 
 	//Create Sound Engine
@@ -89,7 +88,7 @@ void shutdownSoundEngine() {
 
 void ProcessAudio()
 {
-    AK::SoundEngine::RenderAudio();
+    while (true) { AK::SoundEngine::RenderAudio(); };
 }
 
 int main() {
@@ -120,9 +119,16 @@ int main() {
     //Game object reference for post event
     const AkGameObjectID GameObj = 100;
     AK::SoundEngine::RegisterGameObj(GameObj);
+    
+
+    //Set the default Listener
+    AkGameObjectID Listener = GameObj;
+    AK::SoundEngine::SetDefaultListeners(&Listener, 1);
+    
 
     //post event
-    AK::SoundEngine::PostEvent("Play_Z_Stun", GameObj);
+    AkPlayingID StunPlayingID = AK::SoundEngine::PostEvent("Play_Z_Stun", GameObj);
+    std::cout << (StunPlayingID != AK_INVALID_PLAYING_ID ? "Event posted\n" : "Event failed\n");
 
     //Apparently needed every frame for audio to work, not sure if it's in the right place.
     ProcessAudio();
