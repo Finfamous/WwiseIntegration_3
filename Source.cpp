@@ -109,7 +109,7 @@ int main() {
     AKRESULT eResult = AK::SoundEngine::LoadBank(L"Init.bnk", initBankID);
     if (eResult == AK_Success)
     {
-        eResult = AK::SoundEngine::LoadBank(L"Init.bnk", soundBankID);
+        eResult = AK::SoundEngine::LoadBank(L"Main.bnk", soundBankID);
         std::cout << "SUCCESS! Loaded banks" << std::endl;
     }
     else
