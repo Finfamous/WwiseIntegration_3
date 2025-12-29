@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkDefaultIOHookDeferred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkDefaultLowLevelIODispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFileLocationBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackageLUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkGeneratedSoundBanksResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkJobWorkerMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkMultipleFileLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkPlatformProfilerHookStubs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\ak.natvis">
+      <Filter>Source Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\Ak3DObjects.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAtomic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAtomicSpinFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAtomicTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAudioMarker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAudioObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkBytesCount.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkBytesMem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkCallback.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkCallbackTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkCommandBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkCommandTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkCommonDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkConstants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkDynamicDialogue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkDynamicSequence.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkEnums.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkErrorMessageTranslator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkExternalSourceArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkFileSystemFlags.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkFPUtilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkHashTableFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkHashTableTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMemoryArenaTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMemoryMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMemoryMgrFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMemoryMgrModule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMidiTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMidiWwiseCmds.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkMixerTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkNumeralTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkQueryParameters.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSimd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSimdMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSimdTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSoundEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSoundEngineExport.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSoundEngineTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSpeakerConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkSpeakerVolumes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkStreamMgrModule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkTempAllocDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkTypedefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkVirtualAcoustics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkWavDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkWwiseErrorHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkXMLErrorMessageTranslator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPlatformContext.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPlugin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginHashTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginMemAlloc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginServiceMeter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginServicePlatformFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginTempAlloc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkPluginWavFileWriter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkProcessorFeatures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkRTPCSubscriber.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\IAkStreamMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkAllocator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkAssert.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkAutoLock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkBankReadHelpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkBitFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkDynaBlkPool.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkFifoQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkFNVHash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkHashList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkHeap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkInstrument.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkKeyArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkKeyDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkListBare.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkListBareLight.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkLock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkMonitorError.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkMonitorErrorImpl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkMurMurHash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkObjectPool.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkPlacementNew.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkPlatformFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkProfilingID.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkRingBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkRng.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkSet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkSmartPtr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkString.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkSyncCaller.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkTls.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\Tools\Common\AkVectors.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkDefaultIOHookDeferred.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkFileHelpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkDefaultLowLevelIODispatcher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFileHelpersBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFileLocationBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackageLowLevelIO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackageLowLevelIODeferred.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackageLUT.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkGeneratedSoundBanksResolver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkJobWorkerMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkMultipleFileLocation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkPlatformProfilerHooks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackageLowLevelIO.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
